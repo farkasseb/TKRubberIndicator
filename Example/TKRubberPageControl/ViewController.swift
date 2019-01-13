@@ -22,7 +22,7 @@ class ViewController: UIViewController {
         page.valueChange = {(num) -> Void in
             print("Closure : Page is \(num)")
         }
-        page.addTarget(self, action: #selector(ViewController.targetActionValueChange(_:)), for: UIControlEvents.valueChanged)
+        page.addTarget(self, action: #selector(ViewController.targetActionValueChange(_:)), for: UIControl.Event.valueChanged)
         view.addSubview(page)
         
         

@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4DD32F127D38B2F952E7DB9E /* Pods_TKRubberPageControl_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C630F28F645C1194BD0EE01 /* Pods_TKRubberPageControl_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -15,7 +14,8 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		6A2C1335201A2FB000A7E6C0 /* demo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6A2C1334201A2FB000A7E6C0 /* demo.gif */; };
-		C74A13013694B106ACC78BC8 /* Pods_TKRubberPageControl_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACA3DD7A4A83FC3A7E24B89D /* Pods_TKRubberPageControl_Tests.framework */; };
+		AEC7580C103DA6D300194D78 /* Pods_TKRubberPageControl_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1851AF1BF8BBE3EE2BECF325 /* Pods_TKRubberPageControl_Tests.framework */; };
+		D74B4888B771BCFD26747C99 /* Pods_TKRubberPageControl_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 647627FDAB70D3C6E81E16CB /* Pods_TKRubberPageControl_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,7 +29,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1851AF1BF8BBE3EE2BECF325 /* Pods_TKRubberPageControl_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TKRubberPageControl_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D30DA13F8C3B772D3A4F2E4 /* Pods-TKRubberPageControl_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TKRubberPageControl_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TKRubberPageControl_Tests/Pods-TKRubberPageControl_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		41ADF49DE44CCC91D25B62D8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		53DF1DB9D323AFF816D1C06E /* Pods-TKRubberPageControl_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TKRubberPageControl_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-TKRubberPageControl_Example/Pods-TKRubberPageControl_Example.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* TKRubberPageControl_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TKRubberPageControl_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -41,14 +44,11 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		63348B70AC22A02F95E98810 /* TKRubberPageControl.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TKRubberPageControl.podspec; path = ../TKRubberPageControl.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		679B60D44901B6977ECC9A0A /* Pods-TKRubberPageControl_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TKRubberPageControl_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TKRubberPageControl_Tests/Pods-TKRubberPageControl_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		647627FDAB70D3C6E81E16CB /* Pods_TKRubberPageControl_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TKRubberPageControl_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		67FA234183E5AC11E2BA31A3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6A2C1334201A2FB000A7E6C0 /* demo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = demo.gif; sourceTree = "<group>"; };
-		6C630F28F645C1194BD0EE01 /* Pods_TKRubberPageControl_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TKRubberPageControl_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6D0744C7302CE673A89B17F6 /* Pods-TKRubberPageControl_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TKRubberPageControl_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TKRubberPageControl_Tests/Pods-TKRubberPageControl_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		7D8C1B4EA8BBF40A33B0612E /* Pods-TKRubberPageControl_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TKRubberPageControl_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TKRubberPageControl_Example/Pods-TKRubberPageControl_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		8C14F69AF09A04B2FADB0898 /* Pods-TKRubberPageControl_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TKRubberPageControl_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-TKRubberPageControl_Example/Pods-TKRubberPageControl_Example.release.xcconfig"; sourceTree = "<group>"; };
-		ACA3DD7A4A83FC3A7E24B89D /* Pods_TKRubberPageControl_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TKRubberPageControl_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4563B783F87837569C67A6F /* Pods-TKRubberPageControl_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TKRubberPageControl_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TKRubberPageControl_Tests/Pods-TKRubberPageControl_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		CB9510F587330E7BED9D810A /* Pods-TKRubberPageControl_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TKRubberPageControl_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TKRubberPageControl_Example/Pods-TKRubberPageControl_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DD32F127D38B2F952E7DB9E /* Pods_TKRubberPageControl_Example.framework in Frameworks */,
+				D74B4888B771BCFD26747C99 /* Pods_TKRubberPageControl_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,7 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C74A13013694B106ACC78BC8 /* Pods_TKRubberPageControl_Tests.framework in Frameworks */,
+				AEC7580C103DA6D300194D78 /* Pods_TKRubberPageControl_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,8 +78,8 @@
 				607FACD21AFB9204008FA782 /* Example for TKRubberPageControl */,
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
-				80FAF49169774A012A653375 /* Pods */,
-				8DDF81FE0B68630E5EEE31FF /* Frameworks */,
+				6688C6F5B01DC638ACE8B2BB /* Pods */,
+				AD0F2D958A53B6FCF6D5A6AE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -142,22 +142,22 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
-		80FAF49169774A012A653375 /* Pods */ = {
+		6688C6F5B01DC638ACE8B2BB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				7D8C1B4EA8BBF40A33B0612E /* Pods-TKRubberPageControl_Example.debug.xcconfig */,
-				8C14F69AF09A04B2FADB0898 /* Pods-TKRubberPageControl_Example.release.xcconfig */,
-				679B60D44901B6977ECC9A0A /* Pods-TKRubberPageControl_Tests.debug.xcconfig */,
-				6D0744C7302CE673A89B17F6 /* Pods-TKRubberPageControl_Tests.release.xcconfig */,
+				CB9510F587330E7BED9D810A /* Pods-TKRubberPageControl_Example.debug.xcconfig */,
+				53DF1DB9D323AFF816D1C06E /* Pods-TKRubberPageControl_Example.release.xcconfig */,
+				3D30DA13F8C3B772D3A4F2E4 /* Pods-TKRubberPageControl_Tests.debug.xcconfig */,
+				C4563B783F87837569C67A6F /* Pods-TKRubberPageControl_Tests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		8DDF81FE0B68630E5EEE31FF /* Frameworks */ = {
+		AD0F2D958A53B6FCF6D5A6AE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6C630F28F645C1194BD0EE01 /* Pods_TKRubberPageControl_Example.framework */,
-				ACA3DD7A4A83FC3A7E24B89D /* Pods_TKRubberPageControl_Tests.framework */,
+				647627FDAB70D3C6E81E16CB /* Pods_TKRubberPageControl_Example.framework */,
+				1851AF1BF8BBE3EE2BECF325 /* Pods_TKRubberPageControl_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -169,12 +169,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "TKRubberPageControl_Example" */;
 			buildPhases = (
-				8C403CFF8B024755C20BD049 /* [CP] Check Pods Manifest.lock */,
+				E5F3B983C0BA27670D8E3714 /* [CP] Check Pods Manifest.lock */,
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				3892B34AB61FCED6D73C54D0 /* [CP] Embed Pods Frameworks */,
-				2F615733475F5061AF8146B4 /* [CP] Copy Pods Resources */,
+				9161062ED4B46131DEEA967E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -189,12 +188,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "TKRubberPageControl_Tests" */;
 			buildPhases = (
-				32AF25F7280E47263E749D53 /* [CP] Check Pods Manifest.lock */,
+				328AF6EE437AE17D0B4324BB /* [CP] Check Pods Manifest.lock */,
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
-				0273B592BE7B46272D72B4A6 /* [CP] Embed Pods Frameworks */,
-				3B9F46F2980D15A6260155F4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -213,16 +210,18 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
+						DevelopmentTeam = E8Q9KQPZUK;
+						LastSwiftMigration = 1010;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
+						DevelopmentTeam = E8Q9KQPZUK;
+						LastSwiftMigration = 1010;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
 				};
@@ -268,46 +267,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0273B592BE7B46272D72B4A6 /* [CP] Embed Pods Frameworks */ = {
+		328AF6EE437AE17D0B4324BB /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TKRubberPageControl_Tests/Pods-TKRubberPageControl_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		2F615733475F5061AF8146B4 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TKRubberPageControl_Example/Pods-TKRubberPageControl_Example-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		32AF25F7280E47263E749D53 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+			inputFileListPaths = (
 			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-TKRubberPageControl_Tests-checkManifestLockResult.txt",
 			);
@@ -316,16 +289,20 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		3892B34AB61FCED6D73C54D0 /* [CP] Embed Pods Frameworks */ = {
+		9161062ED4B46131DEEA967E /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			inputFileListPaths = (
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-TKRubberPageControl_Example/Pods-TKRubberPageControl_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/TKRubberPageControl/TKRubberPageControl.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TKRubberPageControl.framework",
 			);
@@ -334,31 +311,20 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TKRubberPageControl_Example/Pods-TKRubberPageControl_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		3B9F46F2980D15A6260155F4 /* [CP] Copy Pods Resources */ = {
+		E5F3B983C0BA27670D8E3714 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TKRubberPageControl_Tests/Pods-TKRubberPageControl_Tests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		8C403CFF8B024755C20BD049 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+			inputFileListPaths = (
 			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-TKRubberPageControl_Example-checkManifestLockResult.txt",
 			);
@@ -429,12 +395,14 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -482,12 +450,14 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -518,7 +488,7 @@
 		};
 		607FACF01AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7D8C1B4EA8BBF40A33B0612E /* Pods-TKRubberPageControl_Example.debug.xcconfig */;
+			baseConfigurationReference = CB9510F587330E7BED9D810A /* Pods-TKRubberPageControl_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TKRubberPageControl/Info.plist;
@@ -526,14 +496,13 @@
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
 		607FACF11AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8C14F69AF09A04B2FADB0898 /* Pods-TKRubberPageControl_Example.release.xcconfig */;
+			baseConfigurationReference = 53DF1DB9D323AFF816D1C06E /* Pods-TKRubberPageControl_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TKRubberPageControl/Info.plist;
@@ -541,14 +510,13 @@
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 679B60D44901B6977ECC9A0A /* Pods-TKRubberPageControl_Tests.debug.xcconfig */;
+			baseConfigurationReference = 3D30DA13F8C3B772D3A4F2E4 /* Pods-TKRubberPageControl_Tests.debug.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -562,14 +530,13 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6D0744C7302CE673A89B17F6 /* Pods-TKRubberPageControl_Tests.release.xcconfig */;
+			baseConfigurationReference = C4563B783F87837569C67A6F /* Pods-TKRubberPageControl_Tests.release.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -579,8 +546,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};

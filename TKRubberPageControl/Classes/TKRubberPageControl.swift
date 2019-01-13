@@ -251,7 +251,7 @@ open class TKRubberPageControl : UIControl {
 
         
         // 可以使用 Target-Action 监听事件
-        sendActions(for: UIControlEvents.valueChanged)
+        sendActions(for: UIControl.Event.valueChanged)
         // 也可以使用 闭包 监听事件
         valueChange?(currentIndex)
         
@@ -322,10 +322,10 @@ private class TKBubbleCell: CAShapeLayer, CAAnimationDelegate {
         positionAnimation.duration = duration
         positionAnimation.beginTime = beginTime
         positionAnimation.isAdditive = true;
-        positionAnimation.calculationMode = kCAAnimationPaced;
-        positionAnimation.rotationMode = kCAAnimationRotateAuto;
+        positionAnimation.calculationMode = CAAnimationCalculationMode.paced;
+        positionAnimation.rotationMode = CAAnimationRotationMode.rotateAuto;
         positionAnimation.path = movePath.cgPath
-        positionAnimation.fillMode = kCAFillModeForwards
+        positionAnimation.fillMode = CAMediaTimingFillMode.forwards
         positionAnimation.isRemovedOnCompletion = false
         positionAnimation.delegate = self
         cachePosition = position
@@ -354,7 +354,7 @@ private class TKBubbleCell: CAShapeLayer, CAAnimationDelegate {
                                   NSValue(cgPoint: CGPoint(x: 0, y: -3)),
                                   NSValue(cgPoint: CGPoint(x: 0, y: 0)), ]
         bubbleShakeAnim.repeatCount = 6
-        bubbleShakeAnim.timingFunction = CAMediaTimingFunction(name: kCAMediaTimingFunctionEaseInEaseOut)
+        bubbleShakeAnim.timingFunction = CAMediaTimingFunction(name: CAMediaTimingFunctionName.easeInEaseOut)
         bubbleLayer.add(bubbleShakeAnim, forKey: "Shake")
     }
     
